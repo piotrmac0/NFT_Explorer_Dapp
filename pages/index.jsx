@@ -87,7 +87,7 @@ const Home = () => {
         <label className="text-gray-600"><input onChange={(e)=>{setFetchForCollection(e.target.checked)}} type={"checkbox"} className="mr-2"></input>Fetch only collection</label>
         {/*button with fetchings its collection or not and calling proper to that state function */}
         
-        <button className={"disabled:bg-slate-500 text-white bg-slate-800 px-4 py-2 mt-3 rounded-md w-2/5 md:w-1/5 mb-10"}
+        <button className={"disabled:bg-slate-500 text-white bg-slate-800 px-4 py-2 mt-3 rounded-md w-2/6 md:w-1/6 mb-10"}
         onClick={() => {
             if(fetchForCollection) {
                 fetchNFTsForCollection()
